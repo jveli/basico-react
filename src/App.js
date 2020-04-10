@@ -7,8 +7,8 @@ function App() {
 
   // crear listado de productos
 const [productos, guardarProductos] = useState([
-  {id:1,nombre:'Camisa React', precio: 50},
-  {id:2  ,nombre:'Camisa Native', precio: 20},
+  {id:1,nombre:'Camisa React Para mas', precio: 50},
+  {id:2  ,nombre: 'Camisa Native', precio: 20},
   {id:3,nombre:'Polito Na', precio: 15},
   {id:4,nombre:'Polito Largo', precio: 10}
 ]);
