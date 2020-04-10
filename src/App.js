@@ -35,6 +35,7 @@ const [ carrito, agregarProducto] = useState([]);
 
       <Carrito
         carrito={carrito}
+        agregarProducto={agregarProducto}
       />
 
       <Footer fecha={fecha}/>

@@ -2,7 +2,7 @@ import React from 'react';
 import './carrito.css';
 import Producto from './Producto';
 
-const Carrito = ({carrito,producto}) => (
+const Carrito = ({carrito,producto,agregarProducto}) => (
 
     <div className="carrito">
         <h2>Tu carrito de Compras  </h2>
@@ -13,6 +13,8 @@ const Carrito = ({carrito,producto}) => (
             <Producto
                 key={producto.id}
                 producto={producto}
+                carrito={carrito}
+                agregarProducto={agregarProducto}
                 
             />
         ))
